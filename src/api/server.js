@@ -14,7 +14,7 @@ async function init(){
     await client.connect();
     const db=client.db("adbrew_test");
     collection=db.collection("todos");
-    console.log("Connected to MongoDB");
+    console.log("Connected to MongoDB"); 
 }
    
  catch(error){
